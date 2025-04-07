@@ -1,0 +1,7 @@
+# Ignore main frontend files test only
+index.html
+main.css
+main.js
+
+# Ignore Java implementation folder (until tested)
+java/
