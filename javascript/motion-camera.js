@@ -291,7 +291,7 @@ export class MotionCamera {
         this.#ctx.putImageData(buffer, 0, 0);
 
         // Convert canvas content to a Base64 image string
-        return this.#cnv.toDataURL();
+        return this.#cnv.toDataURL("image/webp", 1.0);
     }
 
 

@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Motion Detection Camera</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <h1>Motion Detection Camera</h1>
+  </header>
+
+  <aside>
+    <button id="toggleEngine">Start Engine</button>
+
+    <div>
+      <label>
+        <input type="checkbox" id="showOriginal" checked />
+        Show Original
+      </label>
+      <label>
+        <input type="checkbox" id="showMotion" />
+        Show Motion
+      </label>
+    </div>
+
+    <section>
+      <h2>Captured Videos</h2>
+      <ul id="videoList">
+
+      </ul>
+    </section>
+  </aside>
+
+  <main>
+    <canvas id="preview" width="1280" height="720" ></canvas>
+  </main>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
