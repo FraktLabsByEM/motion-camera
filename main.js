@@ -1,4 +1,4 @@
-import { MotionCamera } from '../javascript/motion-camera.js';
+import { MotionCamera } from './javascript/motion-camera.js';
 
 // UI Elements
 const toggleBtn = document.getElementById("toggleEngine");
