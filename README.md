@@ -188,6 +188,3 @@ HighGui.destroyAllWindows();
 - All versions support customizable convolution kernels
 - Extendable for region-based motion, motion tracking, etc.
 
----
-
-Let me know if you’d like this in a downloadable `.md` file or if you want to attach license or contribution guidelines.
